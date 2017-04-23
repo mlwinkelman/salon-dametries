@@ -1,4 +1,4 @@
-/* 
+/*
  *  Owl Carousel - Animate Plugin
  */
 .owl-container .animated {
@@ -37,7 +37,7 @@
   }
 }
 
-/* 
+/*
  * 	Owl Carousel - Auto Height Plugin
  */
 .owl-height {
@@ -48,7 +48,7 @@
   transition: height 500ms ease-in-out;
 }
 
-/* 
+/*
  *  Core Owl Carousel CSS File
  */
 .owl-container {
@@ -145,7 +145,7 @@
   display: block;
 }
 
-/* 
+/*
  * 	Owl Carousel - Lazy Load Plugin
  */
 .owl-container .owl-item .owl-lazy {
@@ -160,7 +160,7 @@
   transform-style: preserve-3d;
 }
 
-/* 
+/*
  * 	Owl Carousel - Video Plugin
  */
 .owl-container .owl-video-wrapper {
@@ -224,7 +224,7 @@
 /* 	NEXT / PREV
 	------------------  */
 .owl-nav.disabled { display: none; }
-	
+
 .owl-nav > div {
 	position: absolute;
 	top: 50%; margin-top: -20px;
@@ -242,7 +242,7 @@
 	right: inherit;
 	left: 0px;
 	}
-	
+
 .owl-nav .disabled {
   	opacity: 0;
   	cursor: default !important;
@@ -268,13 +268,13 @@
 	.owl-nav .owl-prev:after {
 	content: "\f124";
 	}
-	.owl-container:hover .owl-nav .owl-next:after, .owl-container:hover .owl-nav .owl-prev:after { 
+	.owl-container:hover .owl-nav .owl-next:after, .owl-container:hover .owl-nav .owl-prev:after {
 	opacity: 1;
 	filter: alpha(opacity=100);
 	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 	transition: opacity 0.3s ease 0.2s;
 	}
-	
+
 
 /* 	DOTS
 	------------------  */
@@ -297,7 +297,7 @@
 	.owl-container.content-slider { margin-bottom: 30px; }
 	.owl-container.content-slider .owl-dots { bottom: -40px; }
 	.owl-container[data-dots=false] { margin-bottom: 0px; }
-	
+
 .owl-dots .owl-dot {
   	float: left;
   	margin: 0px 3px;
@@ -305,7 +305,7 @@
 	position: relative;
 	cursor: pointer;
 	}
-	
+
 .owl-dots .owl-dot span {
   	width: 7px;
   	height: 7px;
@@ -321,7 +321,7 @@
 	transition: opacity 0.2s ease, background 0.2s ease;
 	}
 	.nav-light .owl-dots .owl-dot span { background: #ffffff; }
-	
+
 .owl-dots .owl-dot span:after {
 	content: "";
 	position: absolute;
@@ -337,17 +337,17 @@
 	transition: opacity 0.2s ease;
 	}
 	.nav-light .owl-dots .owl-dot span:after { border-color: #ffffff; }
-	
+
 	.owl-dots .owl-dot.active span, .owl-dots .owl-dot:hover span {
 	opacity: 0.85;
 	filter: alpha(opacity=85);
 	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
 	}
-	
+
 	.owl-dots .owl-dot.active span {
   	background: transparent;
 	}
-	
+
 	.owl-dots .owl-dot.active span:after {
 	opacity: 1;
 	filter: alpha(opacity=100);

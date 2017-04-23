@@ -442,7 +442,7 @@
 	Owl.prototype.initialize = function() {
 		this.enter('initializing');
 		this.trigger('initialize');
-		
+
 		this.$element.addClass(this.settings.baseClass);
 
 		this.$element.toggleClass(this.settings.rtlClass, this.settings.rtl);
@@ -2491,7 +2491,7 @@
 	 */
 	Autoplay.Defaults = {
 		autoplay: false,
-		autoplayTimeout: 5000,
+		autoplayTimeout: 10000,
 		autoplayHoverPause: false,
 		autoplaySpeed: false
 	};
