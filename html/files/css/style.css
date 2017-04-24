@@ -1822,7 +1822,7 @@ header.header-transparent:not(.mega-hover) #top-bar { border-color: rgba(0, 0, 0
 header.header-transparent.transparent-light:not(.mega-hover) { color: #ffffff; }
 header.header-transparent.transparent-light:not(.mega-hover) nav#main-nav > ul > li > a { color: #ffffff; }
 header.header-transparent.transparent-light:not(.mega-hover) nav#main-nav > ul > li > a:after { background: #ffffff; }
-header.header-transparent.transparent-light:not(.mega-hover) nav#main-nav > ul > li > a.button-style { color: #1a1a1a; }
+header.header-transparent.transparent-light:not(.mega-hover) nav#main-nav > ul > li > a.button-style { color: #554f4f; }
 header.header-transparent.transparent-light:not(.mega-hover) nav#main-nav > ul > li > a.button-style:before { background: #ffffff; }
 header.header-transparent.transparent-light:not(.mega-hover) #header-search a#show-search { color: #ffffff; }
 header.header-transparent.transparent-light:not(.mega-hover) #header-cart a#show-cart { color: #ffffff; }
@@ -4794,7 +4794,7 @@ div[class*='alert-']:before {
 
 .widget .widget-title:after {
 	content: "";
-	width: 36px;
+	width: 50px;
 	height: 2px;
 	background: #000000;
 	position: absolute;

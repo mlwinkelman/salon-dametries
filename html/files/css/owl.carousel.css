@@ -300,10 +300,11 @@
 
 .owl-dots .owl-dot {
   	float: left;
-  	margin: 0px 3px;
+  	margin: 0 4px 0 0;
 	padding: 3px;
 	position: relative;
 	cursor: pointer;
+  width: 20%;
 	}
 
 .owl-dots .owl-dot span {

@@ -56,13 +56,51 @@
   object-fit: cover;
 }
 
-.screened-box {
-  background-color: white;
-  opacity: .5;
-  width: 100%;
-  margin: auto;
-}
-
 .set-width {
   width: 172px;
+}
+
+.hours {
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+.footer-color {
+  color: #c1b7b3;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+#footer p strong {
+  color: #c1b7b3;
+}
+
+@media only screen and (max-width: 768px) {
+
+	/* blockquote */
+	blockquote {
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+  /* cite */
+  blockquote cite {
+    font-size: 11px;
+  }
+
+  .column.bigpadding {
+    padding: 30px 20px !important;
+  }
+
+}
+
+@media only screen and (max-width: 414px) {
+
+  h2 {
+    font-size: 40px;
+    line-height: 52px;
+  }
+
 }
