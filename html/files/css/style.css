@@ -367,14 +367,14 @@ input[type=text].check-error , input[type=password].check-error , input[type=ema
 table {
 	margin-top: 30px;
 	border-collapse: collapse;
-	/*table-layout: fixed;*/
+	table-layout: fixed;
 	width: 100%;
 	max-width: 100%;
 	}
 	div table:first-child { margin-top: 0px; }
 
 table thead th {
-	font-family: 'Montserrat';
+	font-family: 'Lato';
 	font-weight: 400;
 	letter-spacing: -0.02em;
 	color: #1a1a1a;
@@ -385,6 +385,7 @@ table thead th {
 
 table tr {
 	border-bottom: 1px solid rgba(0,0,0,0.12);
+	font-size: 13px;
 	}
 	table thead tr { border-bottom: 2px solid rgba(0,0,0,0.12); }
 	.text-light table tr { border-color: rgba(255,255,255,0.24) !important; }
@@ -396,12 +397,12 @@ table tbody td {
 	table thead + tbody tr:first-child td { padding-top: 10px; }
 	table thead th { padding-bottom: 10px; }
 
-table thead tr th:last-child,
-table tbody tr td:last-child { text-align: right; }
+/*table thead tr th:last-child,
+table tbody tr td:last-child { text-align: right; }*/
 
 .table-scroll {
 	max-width: 100%;
-	overflow-y: scroll;
+	/*overflow-y: scroll;*/
 	margin-top: 30px;
 	}
 	div .table-scroll:first-child { margin-top: 0px; }
@@ -2024,7 +2025,7 @@ footer .copyright {
 footer #backtotop {
 	text-align: center;
 	font-size: 11px;
-	font-family: "Montserrat";
+	font-family: "Raleway";
 	font-weight: 400;
 	line-height: 20px;
 	position: fixed;
@@ -2034,7 +2035,7 @@ footer #backtotop {
 	transition: all 0.3s ease;
 	z-index: 100;
 	color: #ffffff;
-	background: #0f0f0f;
+	background: #c1b7b3;
 	padding: 10px 15px;
 	-webkit-transform: translateX(100%);
 	-moz-transform: translateX(100%);

@@ -77,6 +77,8 @@
   color: #c1b7b3;
 }
 
+#menu.menu-is-open nav#main-nav > ul > li > a.button-style:hover { color: #ffffff !important; }
+
 @media only screen and (max-width: 768px) {
 
 	/* blockquote */
