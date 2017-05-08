@@ -377,7 +377,7 @@ table thead th {
 	font-family: 'Lato';
 	font-weight: 400;
 	letter-spacing: -0.02em;
-	color: #1a1a1a;
+	color: #554f4f;
 	font-size: 13px;
 	line-height: 20px;
 	}
@@ -387,11 +387,12 @@ table tr {
 	border-bottom: 1px solid rgba(0,0,0,0.12);
 	font-size: 13px;
 	}
-	table thead tr { border-bottom: 2px solid rgba(0,0,0,0.12); }
+	/*table thead tr { border-bottom: 2px solid rgba(0,0,0,0.12); }*/
 	.text-light table tr { border-color: rgba(255,255,255,0.24) !important; }
 
 table tbody td {
-	padding: 10px 0 ;
+	/*padding: 10px 0 ;*/
+	padding: 10px 10px 10px 0;
 	}
 	table tbody tr:first-child td { padding-top: 0px; }
 	table thead + tbody tr:first-child td { padding-top: 10px; }
@@ -408,7 +409,7 @@ table tbody tr td:last-child { text-align: right; }*/
 	div .table-scroll:first-child { margin-top: 0px; }
 
 .table-scroll table {
-	min-width: 550px;
+	/*min-width: 550px;*/
 	}
 
 

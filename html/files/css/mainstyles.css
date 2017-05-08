@@ -1,24 +1,37 @@
 .hero-title {
   font-family: "Raleway";
   font-weight: 200;
-  font-size: 7em;
+  font-size: 6em;
+  letter-spacing: .01em;
 }
 
 .brand-subtitle-white {
   /*position: relative;*/
   font-family: "Raleway";
-  font-weight: 400;
-  font-size: 1.5em;
+  font-weight: 200;
+  font-size: 1.35em;
   letter-spacing: .3em;
   /*margin-top: -8px;*/
-  line-height: 1.0;
+  line-height: .3;
 }
 
 @media (max-width: 1024px) and (orientation: landscape) {
-   .hero-title {
-    top: 20%;
-   }
+  .hero-title {
+  top: 20%;
   }
+}
+
+@media (max-width: 1024px) {
+  table tr {
+    font-size: 11px;
+    line-height: 16px;
+  }
+  table thead th {
+    font-size: 11px;
+    line-height: 16px;
+  }
+}
+
 @media (max-width: 576px) {
    .hero-title {
     font-size: 4em;
@@ -103,6 +116,38 @@
   h2 {
     font-size: 40px;
     line-height: 52px;
+  }
+  table tr {
+    font-size: 10px;
+    line-height: 14px;
+  }
+  table thead th {
+    font-size: 10px;
+    line-height: 14px;
+  }
+
+}
+
+@media only screen and (max-width: 320px) {
+
+  .hero-title {
+   font-size: 3em;
+   /*top: 28%;*/
+  }
+  .brand-subtitle-white {
+   font-size: .85em;
+   letter-spacing: .2em;
+   line-height: .01em;
+   margin-top: -1px;
+  }
+
+  table tr {
+    font-size: 9px;
+    line-height: 13px;
+  }
+  table thead th {
+    font-size: 9px;
+    line-height: 13px;
   }
 
 }
