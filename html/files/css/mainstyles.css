@@ -90,6 +90,14 @@
   color: #c1b7b3;
 }
 
+.icons {
+  height: 100px;
+}
+
+.notopmargin {
+  margin-top: 0;
+}
+
 table thead th,
 table tbody td {
   vertical-align: bottom;
