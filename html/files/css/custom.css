@@ -98,10 +98,10 @@ body,
 input[type=text], input[type=password], input[type=email], textarea,
 input[type=submit],
 
-#menu .open-nav,
-nav#main-nav > ul > li > a,
+/*#menu .open-nav,*/
+/*nav#main-nav > ul > li > a,*/
 
-nav#main-nav ul li ul > li > a,
+/*nav#main-nav ul li ul > li > a,*/
 .sr-button,
 .inline-video::after,
 .shop-grid .shop-item .product-media .add-to-cart-overlay a,

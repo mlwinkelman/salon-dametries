@@ -15,6 +15,14 @@
   line-height: .3;
 }
 
+.feature-subhead {
+  color: #554f4f;
+  opacity: .85;
+  letter-spacing: 4px;
+  word-spacing: 1px;
+  font-family: 'Montserrat',sans-serif;
+}
+
 @media (max-width: 1024px) and (orientation: landscape) {
   .hero-title {
   top: 20%;
@@ -191,5 +199,82 @@ table tbody tr {
     font-size: 9px;
     line-height: 13px;
   }
+
+}
+
+.flex-wrapper {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+
+  text-align: center;
+}
+
+.flex-image {
+  flex: 2;
+  padding: 16em;
+}
+
+.flex-image-first {
+  order: 1;
+}
+
+.flex-image-second {
+  order: 2;
+}
+
+.flex-textbox {
+  flex: 3;
+  padding: 5em;
+}
+
+.flex-textbox-second {
+  order: 2;
+}
+
+.flex-textbox-first {
+  order: 1;
+}
+
+@media all and (max-width: 1024px) {
+  .flex-image {
+    padding: 12em;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .flex-image {
+    padding: 16em;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .flex-textbox {
+    padding: 3.5em;
+  }
+
+  .flex-textbox-first {
+    order: 2;
+  }
+
+  .flex-image-second {
+    order: 1;
+  }
+}
+
+@media all and (max-width: 414px) {
+  .flex-image {
+    padding: 10em;
+  }
+
+  .flex-textbox {
+    padding: 2.5em 1.5em;
+  }
+
 
 }
