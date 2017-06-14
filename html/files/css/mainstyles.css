@@ -77,6 +77,22 @@
   object-fit: cover;
 }
 
+.round-logo {
+  max-height: 200px;
+  width: auto;
+  object-fit: cover;
+}
+
+.rectangular-logo {
+  max-height: 220px;
+  width: auto;
+  object-fit: cover;
+}
+
+.logo-column {
+  margin-right: 0;
+}
+
 .set-width {
   width: 172px;
 }
@@ -239,6 +255,54 @@ table tbody tr {
 
 .flex-textbox-first {
   order: 1;
+}
+
+#D3cpWidget {
+  width: auto;
+  font-family: 'Lato';
+}
+
+.d3cp_review_order,
+.d3cp_feature_wrap,
+.d3cp_feature_wrap .d3cp_review_main {
+
+  width: auto;
+  display: block;
+  background: none;
+}
+.d3cp_feature_wrap {
+  /*display: flex;*/
+  display: inline-block;
+  flex-flow: row wrap;
+}
+
+.d3cp_feature_wrap .d3cp_review_main {
+  /*width: 60%;*/
+}
+
+.d3cp_review_main {
+  width: 95%;
+}
+
+.d3cp_button_request,
+.d3cp_review_female,
+/*.d3cp_itemized_box,*/
+.d3cp_review_pic {
+  display: none;
+}
+
+.d3cp_feature_sum span {
+  color: #7f9856;
+}
+
+.d3cp_feature_sum {
+  text-align: center;
+  font-size: 100%;
+}
+
+.d3cp_review_content {
+  font-size: 13px;
+  line-height: 19px;
 }
 
 @media all and (max-width: 1024px) {
